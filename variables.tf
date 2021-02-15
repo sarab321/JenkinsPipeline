@@ -59,7 +59,7 @@ variable "public_subnet_cidr_block" {
 
 variable "private_subnet_cidr_block" {
     description = "This represent the VPC CIDR block"
-    default = "10.1.0.0/24"
+    default = "10.0.1.0/24"
 }
 
 variable "route_table_igw_cidr_block" {
